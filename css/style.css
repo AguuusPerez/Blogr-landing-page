@@ -17,6 +17,10 @@ body{
     font-family: var(--font1);
 }
 
+.none{
+    display: none;
+}
+
 /*SECTION HEADER*/
 
 .hero{
@@ -254,4 +258,39 @@ body{
     font-weight: 600;
     margin-bottom: 5px;
     margin-top: 30px;
+}
+
+@media  screen  and (min-width: 600px){
+   /* .hero {
+        background: black;
+    }*/
+
+    .none{
+        display: block;
+    }
+
+    .nav-logo{
+        display: flex;      
+    }
+
+    .nav-hamburguesa{
+        display: none;
+    }
+    
+    .nav-menu{
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-link {
+        color: white;
+        flex-direction: row;  
+        padding-left: 60px;
+        line-height: ;  
+    }
+
+    .nav-icon{
+        display: inline-block;
+        margin-left: 5px;
+    }
 }
