@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --font1:'Overpass', sans-serif;
+    --font2:'Ubuntu', sans-serif;
+    --gradient-very-light-red: hsl(13, 100%, 72%);
+    --gradient-ligth-red: hsl(353, 100%, 62%);
+}
+
+body{
+    font-family: var(--font1);
+}
+
+/*SECTION HEADER*/
+
+.hero{
+    min-height: 100vh;
+    background-image: linear-gradient(var(--gradient-very-light-red), var(--gradient-ligth-red)); /* aplicando gradiente*/
+    position: relative;
+    z-index: 1;
+    border-radius: 0 0 0 120px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /*todo lo que salga de este elm se esconda*/
+    padding: 40px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 150px;
+}
+
+.hero-main{
+    text-align: center;
+    color: white;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin-bottom: 35px;
+}
+
+.hero-title{
+    font-size: 37px;
+}
+
+.hero-paragraph{
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.hero-buttons{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.hero-btn{
+    font-family: var(--font2);
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+}
+
+.hero-patterns{
+    position: absolute;
+    top: -13px;
+    left: -180px;
+    height: 120%;
+    z-index: -1;
+}
+
+/* SECTION MAIN */
+/*- Light red (CTA text): hsl(356, 100%, 66%)
+- Very light red (CTA hover background): hsl(355, 100%, 74%)
+- Very dark blue (headings): hsl(208, 49%, 24%)*/
+
+.subtitle{
+    font-family: var(--font1);
+    font-size: 30px;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    margin-top: 90px; 
+}
+
+.desgined-container{
+    display: flex;
+
+}
+
+.designed-ilustration{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px;    
+}
+
+.designed-paragraph{
+    font-family: var(--font2);
+    font-size: 17px;
+    line-height: 1.9;
+    color: grey;
+    text-align: center;
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 60px;     
+}
+
+/*SECTION PHONES*/
+
+/*Background gradient - body:
+
+- Very dark gray blue: hsl(237, 17%, 21%)
+- Very dark desaturated blue: hsl(237, 23%, 32%)*/
+
+.infrastructure{
+    position: relative;    
+}
+
+.infrastructure::before{
+    content: "";
+    display: block;
+    width: 100%;
+    top: 30%;
+    bottom: 0;
+    position: absolute;
+    background-image: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    z-index: -1;
+    border-radius:0 100px 0 100px ;
+}
+
+.infrastructure-phones{
+    width: 100%;
+}
+
+.infrastructure-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 110px;
+}
+
+.infrastructure-title{
+    color: white;
+    font-size: 38px;
+    font-family: var(--font1);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.infrastructure-paragraph{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    width: 320px;
+    margin:auto;
+    margin-top: 25px;
+    line-height: 1.9;
+}
+
+/*SECTION  ILUSTRACION LAPTOP*/
+
+.desgined-container-left{
+    display: flex;
+}
+
+.designed-laptop{
+    width: 100%;
+    margin-top: 105px;
+}
+
+.subtitle-laptop{
+
+    font-family: var(--font1);
+    font-size: 30px;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    margin-top: 90px; 
+}
+
+.paragraph-laptop{
+
+    font-family: var(--font2);
+    font-size: 17px;
+    line-height: 1.9;
+    color: grey;
+    text-align: center;
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 60px;     
+
+}
+
+
+/* ------------------------- */
+/*- Very dark black blue (footer background): hsl(240, 10%, 16%)*/
+.footer{
+    background-color: hsl(240, 10%, 16%);
+    text-align: center;
+
+    border-radius:0 90px 0 0;
+}
+
+.footer-logo{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-container{
+    
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 2.3;
+}
+
+.footer-main{
+    font-size:22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
