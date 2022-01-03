@@ -108,7 +108,6 @@ body{
 
 .desgined-container{
     display: flex;
-
 }
 
 .designed-ilustration{
@@ -117,6 +116,14 @@ body{
     align-items: center;
     justify-content: center;
     margin: 55px;    
+}
+
+.designed-subtitle{
+    font-family: var(--font1);
+    font-size: 30px;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    margin-top: 90px;
 }
 
 .designed-paragraph{
@@ -197,7 +204,6 @@ body{
 }
 
 .subtitle-laptop{
-
     font-family: var(--font1);
     font-size: 30px;
     color: hsl(208, 49%, 24%);
@@ -206,7 +212,6 @@ body{
 }
 
 .paragraph-laptop{
-
     font-family: var(--font2);
     font-size: 17px;
     line-height: 1.9;
@@ -219,7 +224,6 @@ body{
     margin: auto;
     margin-top: 15px;
     margin-bottom: 60px;     
-
 }
 
 
@@ -237,9 +241,7 @@ body{
     margin-bottom: 30px;
 }
 
-.footer-container{
-    
-}
+
 
 .footer-links{
     display: flex;
@@ -286,11 +288,124 @@ body{
         color: white;
         flex-direction: row;  
         padding-left: 60px;
-        line-height: ;  
     }
 
     .nav-icon{
         display: inline-block;
         margin-left: 5px;
+    }
+
+    .nav-button1{
+        font-family: var(--font2);
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+
+    } 
+
+    .nav-button{
+        display: inline-block;
+        width: 130px;
+        text-align: center;
+        font-family: var(--font2);
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+        border: 1px solid;
+        border-radius: 30px;
+        background-color: white;
+        color: hsl(355, 100%, 74%);
+        margin: 30px;
+    }
+    
+    .hero-main{
+        text-align: center;
+        color: white;
+        align-items: center;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-title{
+        font-size: 67px;
+    }
+    
+    .hero-paragraph{
+        font-size: 27px;
+    }
+
+    .hero-buttons{
+        margin-top: 105px;    
+        margin-bottom: 100px;    
+    }
+
+    .hero-btn{
+        margin: 35px;
+    }
+
+    /*----------------------------*/
+
+    .designed--container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .subtitle{
+        font-size: 30px;
+    }
+    
+    .designed-ilustration{
+        width: 50%;
+        display: flex;
+    }
+
+    .ilustration{
+        width: 600px;
+        height: 600px;
+    }
+
+    .designed-subtitle{
+        padding-left: 71px; 
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .designed-texts{
+        width: 45%;
+    }
+    
+    .designed-paragraph{
+            width: 525px; 
+            font-size: px;
+            text-align: left;  
+    }
+
+/*----------------------------*/
+  
+    .infrastructure{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .infrastructure::before{
+        top: 15%;
+        bottom: 15%;
+    }
+    
+    .infrastructure-phones{
+        width: 60%;
+        padding-left: 60px;
+    }
+    
+    .infrastructure-paragraph{
+        width: 60%;
+        text-align: left;
     }
 }
