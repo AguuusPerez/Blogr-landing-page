@@ -1,14 +1,14 @@
 # Frontend Mentor - Blogr landing page
 
-## Overview
+# Overview
 
-# The challenge
+## The challenge
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-# Screenshot
+## Screenshot
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
 # Links 
