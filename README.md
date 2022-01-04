@@ -1,7 +1,5 @@
 # Frontend Mentor - Blogr landing page
 
-# Overview
-
 ## The challenge
 Users should be able to:
 
@@ -11,7 +9,7 @@ Users should be able to:
 ## Screenshot
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
-# Links 
+## Links 
 - 📌 Solution URL: [Blogr-page](https://gemmaceous-compasse.000webhostapp.com/Blog-page/)
 
 ## My process
@@ -30,10 +28,5 @@ The designs were created to the following widths:
 ## Author
 
 - GitHub - [Agustina Perez](https://github.com/AguuusPerez)
-
-
-
-
-
 
 **Have fun building!** 🚀
