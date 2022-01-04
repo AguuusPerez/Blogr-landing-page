@@ -195,7 +195,7 @@ body{
 /*SECTION  ILUSTRACION LAPTOP*/
 
 .designed-container-left{
-    display: ;
+   
 }
 
 .designed-laptop{
@@ -232,7 +232,6 @@ body{
 .footer{
     background-color: hsl(240, 10%, 16%);
     text-align: center;
-
     border-radius:0 90px 0 0;
 }
 
@@ -240,8 +239,6 @@ body{
     margin-top: 40px;
     margin-bottom: 30px;
 }
-
-
 
 .footer-links{
     display: flex;
@@ -432,9 +429,22 @@ body{
         text-align: left;  
 }
 
+/*--------------------------*/
 
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .footer-links{
+        
+    }
 
+    .footer-logo{
+        display: inline-block;
+        width: 101px;
+        height: 40px;
+    }
 
 
 }
